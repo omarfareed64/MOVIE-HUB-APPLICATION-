@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Cast</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #232323;
+            color: #fff;
+        }
+
+        h1 {
+            color: #e50914;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .cast-list {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .cast-member {
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 200px;
+            border: 2px solid #e50914;
+            padding: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .cast-member:hover {
+            transform: scale(1.05);
+        }
+
+        .actor-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+            border: 3px solid #e50914;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .actor-name {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .character-name {
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Movie Title - Cast</h1>
+
+    <ul class="cast-list">
+        <li class="cast-member">
+            <img class="actor-img" src="image\rayn.jpg" alt="Actor 1">
+            <span class="actor-name">Rayn Reynolds</span>
+            <span class="character-name">as Guy</span>
+        </li>
+        <li class="cast-member">
+            <img class="actor-img" src="image\jodie.jpg" alt="Actor 2">
+            <span class="actor-name">Jodie Cromer</span>
+            <span class="character-name">as Cool Spy</span>
+        </li>
+        <li class="cast-member">
+            <img class="actor-img" src="image\taika.jpg" alt="Actor 3">
+            <span class="actor-name">Taika Watiti</span>
+            <span class="character-name">as Creator</span>
+        </li>
+        <li class="cast-member">
+            <img class="actor-img" src="image\rayn.jpg" alt="Actor 1">
+            <span class="actor-name">Rayn Reynolds</span>
+            <span class="character-name">as Guy</span>
+        </li>
+        <li class="cast-member">
+            <img class="actor-img" src="image\jodie.jpg" alt="Actor 2">
+            <span class="actor-name">Jodie Cromer</span>
+            <span class="character-name">as Cool Spy</span>
+        </li>
+        <li class="cast-member">
+            <img class="actor-img" src="image\taika.jpg" alt="Actor 3">
+            <span class="actor-name">Taika Watiti</span>
+            <span class="character-name">as Creator</span>
+        </li>
+        
+        <!-- Add more cast members as needed -->
+    </ul>
+
+    <script>
+        // You can add more JavaScript for additional effects or functionality here
+    </script>
+
+</body>
+</html>
